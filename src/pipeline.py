@@ -1,0 +1,119 @@
+"""
+Pipeline Coordinator for Comic Dialogue Analysis.
+Integrates speaker extraction, cleaning, lexing, symbol table tracking,
+sentence & tone classification, and character popularity tallying.
+"""
+
+from dataclasses import dataclass, field
+from typing import List, Optional
+from .cleaner import DialogueCleaner, PreprocessedSentence
+from .lexer import ComicLexer, Token, LexicalError
+from .symbol_table import SymbolTable
+from .classifier import SentenceClassifier, ClassificationResult, ToneCues
+from .mention_finder import MentionFinder, MentionResult
+from .character_popularity import CharacterPopularityEngine, CharacterStats
+from .config import SentenceType, TokenType
+
+
+@dataclass
+class SentenceAnalysis:
+    line_num: int
+    speaker: Optional[str]
+    raw_text: str
+    cleaned_text: str
+    tokens: List[Token]
+    lexical_errors: List[LexicalError]
+    sentence_type: SentenceType
+    tone_cues: ToneCues
+    addressed: Optional[str]
+    mentions: List[str]
+    classification_reason: str
+
+    def short_tokens_str(self) -> str:
+        """
+        Formats tokens in short form as presented in the paper (e.g. 'WORD WORD PUNCT WORD TERMINATOR').
+        """
+        return " ".join(t.type.value for t in self.tokens)
+
+
+class ComicDialoguePipeline:
+    def __init__(
+        self,
+        cleaner: Optional[DialogueCleaner] = None,
+        lexer: Optional[ComicLexer] = None,
+        symbol_table: Optional[SymbolTable] = None,
+        classifier: Optional[SentenceClassifier] = None,
+        popularity_engine: Optional[CharacterPopularityEngine] = None
+    ):
+        self.cleaner = cleaner or DialogueCleaner()
+        self.lexer = lexer or ComicLexer()
+        self.symbol_table = symbol_table or SymbolTable()
+        self.classifier = classifier or SentenceClassifier()
+        self.popularity_engine = popularity_engine or CharacterPopularityEngine()
+        
+        # Link mention finder with known names from popularity engine & aliases
+        known_names = self.popularity_engine.get_known_character_names()
+        self.mention_finder = MentionFinder(known_names=known_names)
+
+    def analyze_sentence(self, line: str, line_num: int = 1) -> SentenceAnalysis:
+        """
+        Runs complete analysis for a single dialogue sentence.
+        """
+        # 1. Speaker Split & Preprocessing
+        prep: PreprocessedSentence = self.cleaner.preprocess(line)
+
+        # 2. Lexical Analysis
+        tokens, errors = self.lexer.tokenize(prep.cleaned_text, line_num=line_num)
+
+        # 3. Update Symbol Table
+        known_names = self.popularity_engine.get_known_character_names()
+        for tok in tokens:
+            is_name = tok.value.upper() in known_names
+            self.symbol_table.insert(
+                token_value=tok.value,
+                token_type=tok.type,
+                line_num=line_num,
+                is_proper_name=is_name
+            )
+
+        # 4. Sentence Classification & Tone Analysis
+        class_res: ClassificationResult = self.classifier.classify(tokens)
+
+        # 5. Vocative & Mention Detection
+        mention_res: MentionResult = self.mention_finder.extract(tokens, speaker=prep.speaker)
+
+        # 6. Character Popularity Tallying
+        has_high_tone = class_res.tone.is_shouting or class_res.tone.is_pain_or_action
+        self.popularity_engine.record_activity(
+            speaker=prep.speaker,
+            addressed=mention_res.addressed_name,
+            mentions=mention_res.mentioned_names,
+            has_high_tone=has_high_tone,
+            line_num=line_num
+        )
+
+        return SentenceAnalysis(
+            line_num=line_num,
+            speaker=prep.speaker,
+            raw_text=prep.raw_text,
+            cleaned_text=prep.cleaned_text,
+            tokens=tokens,
+            lexical_errors=errors,
+            sentence_type=class_res.sentence_type,
+            tone_cues=class_res.tone,
+            addressed=mention_res.addressed_name,
+            mentions=mention_res.mentioned_names,
+            classification_reason=class_res.primary_reason
+        )
+
+    def analyze_batch(self, lines: List[str]) -> List[SentenceAnalysis]:
+        """
+        Processes a list of dialogue lines.
+        """
+        results: List[SentenceAnalysis] = []
+        for i, line in enumerate(lines, 1):
+            if not line.strip() or line.strip().startswith("#"):
+                continue
+            res = self.analyze_sentence(line, line_num=i)
+            results.append(res)
+        return results
