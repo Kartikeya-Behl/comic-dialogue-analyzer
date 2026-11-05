@@ -10,9 +10,10 @@ Produces summary statistics over dataset batches:
 
 import time
 from dataclasses import dataclass
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from .pipeline import SentenceAnalysis, ComicDialoguePipeline
 from .config import SentenceType, TokenType
+from .network_analyzer import ConversationalNetworkAnalyzer
 
 
 @dataclass
@@ -27,6 +28,7 @@ class DatasetReport:
     tone_distribution: Dict[str, int]
     character_rankings: List[Dict[str, Any]]
     processing_time_ms: float
+    network_summary: Optional[Dict[str, Any]] = None
 
 
 class DialogueReporter:
@@ -91,6 +93,10 @@ class DialogueReporter:
             for i, c in enumerate(rankings, 1)
         ]
 
+        # 7. Conversational Network Centrality Data
+        net_analyzer = ConversationalNetworkAnalyzer(self.pipeline.popularity_engine)
+        net_data = net_analyzer.build_network_data()
+
         return DatasetReport(
             total_sentences=total_sentences,
             total_tokens=total_tokens,
@@ -101,7 +107,8 @@ class DialogueReporter:
             lexical_errors=lexical_errors,
             tone_distribution=tone_dist,
             character_rankings=char_rankings,
-            processing_time_ms=round(elapsed_sec * 1000, 2)
+            processing_time_ms=round(elapsed_sec * 1000, 2),
+            network_summary=net_data
         )
 
     def print_text_summary(self, report: DatasetReport) -> str:
@@ -158,10 +165,30 @@ class DialogueReporter:
         lines.append("[*] CHARACTER POPULARITY LEADERBOARD (PRIORITY RANKING):")
         lines.append(f"    {'RANK':<5}{'CHARACTER':<20}{'SPOKEN':<9}{'ADDRESSED':<11}{'MENTIONS':<10}{'TONE':<8}{'SCORE':<8}")
         lines.append("    " + "-" * 71)
-        for c in report.character_rankings:
+        for c in report.character_rankings[:15]:
             lines.append(
                 f"    {c['rank']:<5}{c['character']:<20}{c['spoken']:<9}{c['addressed']:<11}{c['mentioned']:<10}{c['tone']:<8}{c['score']:<8.1f}"
             )
+        lines.append("-" * 80)
+
+        # Conversational Network Centrality
+        if report.network_summary and report.network_summary.get("nodes"):
+            net = report.network_summary
+            lines.append("[*] CONVERSATIONAL INTERACTION NETWORK & CENTRALITY:")
+            lines.append(f"    {'RANK':<5}{'CHARACTER':<18}{'IN-DEG':<8}{'OUT-DEG':<9}{'DEG-CENT':<11}{'BETWEENNESS':<13}")
+            lines.append("    " + "-" * 64)
+            for i, n in enumerate(net["nodes"][:10], 1):
+                lines.append(
+                    f"    {i:<5}{n['character']:<18}{n['in_degree']:<8}{n['out_degree']:<9}"
+                    f"{n['degree_centrality']:<11.3f}{n['betweenness_centrality']:<13.4f}"
+                )
+            if net.get("edges"):
+                lines.append("    Top Conversational Edges (Who Addresses Whom):")
+                sorted_edges = sorted(net["edges"], key=lambda e: e["weight"], reverse=True)
+                for e in sorted_edges[:6]:
+                    lines.append(f"      * {e['source']:<14} --({e['weight']:>2}x)--> {e['target']}")
+            lines.append("-" * 80)
+
         lines.append("=" * 80)
 
         output = "\n".join(lines)

@@ -70,26 +70,52 @@ Dialogue File (Speaker: line)
      $$\text{Popularity}(C) = 1.0 \cdot S + 1.5 \cdot A + 0.8 \cdot M + 0.2 \cdot T$$
    - **Leaderboard Generator**: Formats a ranked prominence table.
 
-7. **Batch Reporter & CLI** (`src/reporter.py`, `main.py`):
-   - Processes batch dialogue files or single sentences with full console summaries.
+7. **Multi-Sentence Speech Bubble Splitter** (`src/bubble_splitter.py`):
+   - Pre-lexer boundary detector that splits multi-sentence speech balloons (e.g., `"LOOK OUT, BRUCE! WHERE DID HE GO? HE WAS JUST HERE..."`) into distinct clauses.
+   - Evaluates tone cues, vocatives, and classifications for each clause independently while attributing speech turns and drama back to the speaker.
+
+8. **Dynamic External Alias & Universe Configuration** (`src/alias_loader.py`):
+   - JSON-driven alias mapping (`data/aliases.json`, `data/aliases_manga.json`).
+   - Allows users to switch between DC, Marvel, Manga, or upload custom universes at runtime.
+
+9. **Conversational Social Network Graph & Centrality Metrics** (`src/network_analyzer.py`):
+   - Directed Network Graph of who addresses whom via vocative patterns ($A \rightarrow B$).
+   - Computes Degree Centrality, In-Degree Centrality, Out-Degree Centrality, Betweenness Centrality, and PageRank.
+   - Interactive Plotly network visualization with nodes sized by popularity score and colored by centrality metrics.
+
+10. **Comprehensive Export & Download Suite** (`src/export_engine.py`):
+    - One-click exports: Character Popularity Leaderboard (`.csv`), Multi-tab Analytics Workbook (`.xlsx`), Full token and sentence-level logs (`.json`), and Academic Paper Tables (`.tex` in standard `booktabs` format).
+
+11. **Batch Reporter & CLI** (`src/reporter.py`, `main.py`):
+    - Processes batch dialogue files or single sentences with full console summaries, network interaction metrics, and automated file exports.
 
 ---
 
 ## Usage
 
-### 1. Run Batch Analysis on Comic Dataset
+### 1. Run Batch Analysis with Multi-Sentence Splitting & Export
 ```bash
-python main.py --file data/sample_comic_dialogue.txt
+python main.py --file data/sample_comic_dialogue.txt --export exports/
 ```
 
-### 2. Run Single Sentence Analysis
+### 2. Run Single Sentence / Multi-Sentence Bubble Analysis
 ```bash
+python main.py --sentence "BATMAN: LOOK OUT, BRUCE! WHERE DID HE GO? HE WAS JUST HERE..."
 python main.py --sentence "WHERE COULD HE BE, NATASHA?"
-python main.py --sentence "HAVE A PEANUT."
 python main.py --sentence "GREEN ARROW: I JUST STOPPED THE ENTIRE WORLD FROM BEING EATEN, DINAH."
 ```
 
-### 3. Run Test Suite
+### 3. Load External Universe Aliases (e.g. Manga)
+```bash
+python main.py --file data/sample_comic_dialogue.txt --aliases data/aliases_manga.json
+```
+
+### 4. Launch Interactive Streamlit Dashboard
+```bash
+streamlit run app.py
+```
+
+### 5. Run Test Suite
 ```bash
 python -m unittest discover -s tests
 ```

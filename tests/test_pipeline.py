@@ -1,14 +1,30 @@
 """
-Unit tests for Comic Dialogue Analyzer & Character Popularity Engine.
+Comprehensive Unit Tests for Comic Dialogue Analyzer & Character Popularity Engine.
+Covers:
+- Speaker splitting & preprocessing
+- Comic lexical tokenization & OCR noise interception
+- Sentence classification & tone cue detection
+- Vocatives & third-party mentions
+- Multi-sentence speech balloon splitting
+- Dynamic JSON alias loading
+- Conversational interaction network & centrality metrics
+- Comprehensive export suite (CSV, JSON, LaTeX, Excel)
 """
 
 import unittest
+import json
+import os
 from src.cleaner import DialogueCleaner
 from src.lexer import ComicLexer, TokenType
 from src.classifier import SentenceClassifier, SentenceType
 from src.mention_finder import MentionFinder
 from src.character_popularity import CharacterPopularityEngine
 from src.pipeline import ComicDialoguePipeline
+from src.bubble_splitter import BubbleSplitter
+from src.alias_loader import load_aliases_from_json
+from src.network_analyzer import ConversationalNetworkAnalyzer
+from src.reporter import DialogueReporter
+from src.export_engine import ExportEngine
 
 
 class TestComicDialoguePipeline(unittest.TestCase):
@@ -105,6 +121,106 @@ class TestComicDialoguePipeline(unittest.TestCase):
         self.assertEqual(top_character.addressed_count, 1)  # addressed by ROBIN
         self.assertEqual(top_character.mentioned_count, 1)  # mentioned as THE DARK KNIGHT
         self.assertGreater(top_character.popularity_score, 0)
+
+    def test_multi_sentence_bubble_splitter(self):
+        splitter = BubbleSplitter()
+        line = "LOOK OUT, BRUCE! WHERE DID HE GO? HE WAS JUST HERE..."
+        clauses = splitter.split(line)
+        self.assertEqual(len(clauses), 3)
+        self.assertEqual(clauses[0], "LOOK OUT, BRUCE!")
+        self.assertEqual(clauses[1], "WHERE DID HE GO?")
+        self.assertEqual(clauses[2], "HE WAS JUST HERE...")
+
+        # Test abbreviation preservation
+        abbr_line = "DR. STRANGE, WATCH OUT! BOOM!"
+        abbr_clauses = splitter.split(abbr_line)
+        self.assertEqual(len(abbr_clauses), 2)
+        self.assertEqual(abbr_clauses[0], "DR. STRANGE, WATCH OUT!")
+        self.assertEqual(abbr_clauses[1], "BOOM!")
+
+    def test_pipeline_bubble_analysis(self):
+        pipeline = ComicDialoguePipeline()
+        bubble_line = "BATMAN: LOOK OUT, BRUCE! WHERE DID HE GO? HE WAS JUST HERE..."
+        analyses = pipeline.analyze_bubble(bubble_line)
+
+        self.assertEqual(len(analyses), 3)
+        # All clauses should share the speaker
+        for a in analyses:
+            self.assertEqual(a.speaker, "BATMAN")
+            self.assertEqual(a.total_clauses, 3)
+
+        # Clause 1: Command, shouting
+        self.assertEqual(analyses[0].sentence_type, SentenceType.COMMAND)
+        self.assertTrue(analyses[0].tone_cues.is_shouting)
+        self.assertEqual(analyses[0].addressed, "BRUCE")  # BRUCE addressed via vocative pattern
+
+        # Clause 2: Question
+        self.assertEqual(analyses[1].sentence_type, SentenceType.QUESTION)
+
+        # Clause 3: Statement, hesitation
+        self.assertEqual(analyses[2].sentence_type, SentenceType.STATEMENT)
+        self.assertTrue(analyses[2].tone_cues.is_hesitant)
+
+    def test_dynamic_alias_loader(self):
+        # Direct dict
+        aliases_dict = {"PIRATE HUNTER": "ZORO", "MUGIWARA": "LUFFY"}
+        loaded = load_aliases_from_json(aliases_dict)
+        self.assertEqual(loaded["PIRATE HUNTER"], "ZORO")
+        self.assertEqual(loaded["MUGIWARA"], "LUFFY")
+
+        # JSON String with 'aliases' block
+        json_str = '{"universe": "Custom", "aliases": {"TONY": "IRON MAN", "CAP": "CAPTAIN AMERICA"}}'
+        loaded2 = load_aliases_from_json(json_str)
+        self.assertEqual(loaded2["TONY"], "IRON MAN")
+        self.assertEqual(loaded2["CAP"], "CAPTAIN AMERICA")
+
+    def test_conversational_network_and_centrality(self):
+        pipeline = ComicDialoguePipeline()
+        lines = [
+            "BATMAN: WHERE COULD HE BE, NATASHA?",
+            "NATASHA: HE IS IN GOTHAM, BRUCE!",
+            "ROBIN: LOOK OUT, BATMAN! THE JOKER IS HERE!",
+            "BATMAN: STAY BACK, ROBIN!"
+        ]
+        pipeline.analyze_batch(lines)
+
+        net_analyzer = ConversationalNetworkAnalyzer(pipeline.popularity_engine)
+        net_data = net_analyzer.build_network_data()
+
+        self.assertGreater(net_data["total_nodes"], 0)
+        self.assertGreater(net_data["total_edges"], 0)
+
+        # Batman was addressed by Natasha and Robin (in_degree >= 2)
+        batman_node = next(n for n in net_data["nodes"] if n["character"] == "BATMAN")
+        self.assertGreaterEqual(batman_node["in_degree"], 2)
+        self.assertGreaterEqual(batman_node["degree_centrality"], 0.0)
+
+    def test_export_engine_suite(self):
+        pipeline = ComicDialoguePipeline()
+        lines = [
+            "BATMAN: WHERE COULD HE BE, NATASHA?",
+            "NATASHA: HE IS IN GOTHAM, BRUCE!"
+        ]
+        analyses = pipeline.analyze_batch(lines)
+        reporter = DialogueReporter(pipeline)
+        report = reporter.generate_report(analyses, elapsed_sec=0.005)
+
+        # Test CSV export
+        csv_str = ExportEngine.export_leaderboard_csv(report)
+        self.assertIn("Character", csv_str)
+        self.assertIn("BATMAN", csv_str)
+
+        # Test JSON export
+        json_str = ExportEngine.export_full_json(report, analyses, report.network_summary)
+        parsed_json = json.loads(json_str)
+        self.assertIn("character_popularity_leaderboard", parsed_json)
+        self.assertIn("sentence_level_analyses", parsed_json)
+
+        # Test LaTeX export
+        latex_str = ExportEngine.generate_latex_tables(report, report.network_summary)
+        self.assertIn("\\begin{table}", latex_str)
+        self.assertIn("\\toprule", latex_str)
+        self.assertIn("BATMAN", latex_str)
 
 
 if __name__ == "__main__":

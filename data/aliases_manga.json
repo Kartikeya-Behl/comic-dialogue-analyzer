@@ -1,0 +1,32 @@
+{
+  "universe": "Manga & Shonen (Anime)",
+  "description": "Character aliases for popular Manga and Shonen titles including Dragon Ball, Naruto, and One Piece",
+  "aliases": {
+    "GOKU": "SON GOKU",
+    "SON GOKU": "SON GOKU",
+    "KAKAROT": "SON GOKU",
+    "VEGETA": "VEGETA",
+    "PRINCE VEGETA": "VEGETA",
+    "PICCOLO": "PICCOLO",
+    "GOHAN": "SON GOHAN",
+
+    "NARUTO": "NARUTO UZUMAKI",
+    "NARUTO UZUMAKI": "NARUTO UZUMAKI",
+    "SEVENTH HOKAGE": "NARUTO UZUMAKI",
+    "SASUKE": "SASUKE UCHIHA",
+    "SASUKE UCHIHA": "SASUKE UCHIHA",
+    "SAKURA": "SAKURA HARUNO",
+    "KAKASHI": "KAKASHI HATAKE",
+
+    "LUFFY": "MONKEY D. LUFFY",
+    "MONKEY D. LUFFY": "MONKEY D. LUFFY",
+    "STRAW HAT": "MONKEY D. LUFFY",
+    "MUGIWARA": "MONKEY D. LUFFY",
+    "ZORO": "RORONOA ZORO",
+    "RORONOA ZORO": "RORONOA ZORO",
+    "PIRATE HUNTER": "RORONOA ZORO",
+    "NAMI": "NAMI",
+    "SANJI": "SANJI",
+    "BLACK LEG": "SANJI"
+  }
+}

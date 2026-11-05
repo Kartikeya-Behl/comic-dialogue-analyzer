@@ -1,0 +1,1002 @@
+# Cornell Movie-Dialogs Corpus: 1000-Line Benchmark Sample
+# Format: SPEAKER: dialogue
+BIANCA: They do not!
+CAMERON: They do to!
+BIANCA: I hope so.
+CAMERON: She okay?
+BIANCA: Let's go.
+CAMERON: Wow
+BIANCA: Okay -- you're gonna need to learn how to lie.
+CAMERON: No
+BIANCA: I'm kidding.  You know how sometimes you just become this "persona"?  And you don't know how to quit?
+BIANCA: Like my fear of wearing pastels?
+CAMERON: The "real you".
+BIANCA: What good stuff?
+CAMERON: I figured you'd get to the good stuff eventually.
+CAMERON: Thank God!  If I had to hear one more story about your coiffure...
+BIANCA: Me.  This endless ...blonde babble. I'm like, boring myself.
+CAMERON: What crap?
+BIANCA: do you listen to this crap?
+CAMERON: No...
+BIANCA: Then Guillermo says, "If you go any lighter, you're gonna look like an extra on 90210."
+CAMERON: You always been this selfish?
+BIANCA: But
+CAMERON: Then that's all you had to say.
+BIANCA: Well, no...
+CAMERON: You never wanted to go out with 'me, did you?
+BIANCA: I was?
+CAMERON: I looked for you back at the party, but you always seemed to be "occupied".
+BIANCA: Tons
+CAMERON: Have fun tonight?
+CAMERON: I believe we share an art instructor
+BIANCA: You know Chastity?
+CAMERON: Looks like things worked out tonight, huh?
+BIANCA: Hi.
+BIANCA: Who knows?  All I've ever heard her say is that she'd dip before dating a guy that smokes.
+CAMERON: So that's the kind of guy she likes? Pretty ones?
+BIANCA: Lesbian?  No. I found a picture of Jared Leto in one of her drawers, so I'm pretty sure she's not harboring same-sex tendencies.
+CAMERON: She's not a...
+CAMERON: I'm workin' on it. But she doesn't seem to be goin' for him.
+BIANCA: I really, really, really wanna go, but I can't.  Not unless my sister goes.
+CAMERON: Sure have.
+BIANCA: Eber's Deep Conditioner every two days. And I never, ever use a blowdryer without the diffuser attachment.
+CAMERON: How do you get your hair to look like that?
+BIANCA: You're sweet.
+CAMERON: You have my word.  As a gentleman
+BIANCA: I counted on you to help my cause. You and that thug are obviously failing. Aren't we ever going on our date?
+CAMERON: You got something on your mind?
+BIANCA: Where?
+CAMERON: There.
+CAMERON: Well, there's someone I think might be --
+BIANCA: How is our little Find the Wench A Date plan progressing?
+BIANCA: Forget French.
+CAMERON: That's because it's such a nice one.
+BIANCA: I don't want to know how to say that though.  I want to know useful things. Like where the good stores are.  How much does champagne cost?  Stuff like Chat.  I have never in my life had to point out my head to someone.
+CAMERON: Right.  See?  You're ready for the quiz.
+BIANCA: C'esc ma tete. This is my head
+CAMERON: Let me see what I can do.
+BIANCA: Gosh, if only we could find Kat a boyfriend...
+CAMERON: That's a shame.
+BIANCA: Unsolved mystery.  She used to be really popular when she started high school, then it was just like she got sick of it or something.
+CAMERON: Why?
+CAMERON: Seems like she could get a date easy enough...
+BIANCA: The thing is, Cameron -- I'm at the mercy of a particularly hideous breed of loser.  My sister.  I can't date until she does.
+CAMERON: Cameron.
+BIANCA: No, no, it's my fault -- we didn't have a proper introduction ---
+CAMERON: Forget it.
+BIANCA: You're asking me out.  That's so cute. What's your name again?
+CAMERON: Okay... then how 'bout we try out some French cuisine.  Saturday?  Night?
+BIANCA: Not the hacking and gagging and spitting part.  Please.
+CAMERON: Well, I thought we'd start with pronunciation, if that's okay with you.
+BIANCA: Can we make this quick?  Roxanne Korrine and Andrew Barrett are having an incredibly horrendous public break- up on the quad.  Again.
+BIANCA: I did.
+CHASTITY: You think you ' re the only sophomore at the prom?
+CHASTITY: I don't have to be home 'til two.
+BIANCA: I have to be home in twenty minutes.
+CHASTITY: All I know is -- I'd give up my private line to go out with a guy like Joey.
+BIANCA: Sometimes I wonder if the guys we're supposed to want to go out with are the ones we actually want to go out with, you know?
+CHASTITY: Bianca, I don't think the highlights of dating Joey Dorsey are going to include door-opening and coat-holding.
+BIANCA: Combination.  I don't know -- I thought he'd be different.  More of a gentleman...
+CHASTITY: Is he oily or dry?
+BIANCA: He practically proposed when he found out we had the same dermatologist. I mean. Dr. Bonchowski is great an all, but he's not exactly relevant party conversation.
+BIANCA: Would you mind getting me a drink, Cameron?
+CHASTITY: Great
+BIANCA: Joey.
+CHASTITY: Who?
+BIANCA: Where did he go?  He was just here.
+BIANCA: You might wanna think about it
+CHASTITY: No.
+BIANCA: Did you change your hair?
+BIANCA: You know the deal.  I can ' t go if Kat doesn't go --
+JOEY: Listen, I want to talk to you about the prom.
+JOEY: You're concentrating awfully hard considering it's gym class.
+BIANCA: Hi, Joey.
+JOEY: Hey, sweet cheeks.
+JOEY: My agent says I've got a good shot at being the Prada guy next year.
+BIANCA: Neat...
+JOEY: It's a gay cruise line, but I'll be, like, wearing a uniform and stuff.
+BIANCA: Queen Harry?
+JOEY: So yeah, I've got the Sears catalog thing going -- and the tube sock gig " that's gonna be huge.  And then I'm up for an ad for Queen Harry next week.
+BIANCA: Hopefully.
+JOEY: Exactly  So, you going to Bogey Lowenbrau's thing on Saturday?
+BIANCA: Expensive?
+JOEY: It's more
+KAT: Perm?
+BIANCA: Patrick -- is that- a.
+KAT: It's just you.
+BIANCA: Is that woman a complete fruit-loop or is it just me?
+BIANCA: No! I just wanted
+KAT: What? To completely damage me?  To send me to therapy forever? What?
+BIANCA: I just wanted --
+KAT: You set me up.
+BIANCA: Let go!
+KAT: So did you
+BIANCA: You looked beautiful last night, you know.
+BIANCA: I guess I'll never know, will I?
+KAT: Not all experiences are good, Bianca. You can't always trust the people you want to.
+BIANCA: God, you're just like him! Just keep me locked away in the dark, so I can't experience anything for myself
+KAT: I guess I thought I was protecting you.
+BIANCA: I'm not stupid enough to repeat your mistakes.
+KAT: That's not
+BIANCA: No. you didn't!  If you really thought I could make my own decisions, you would've let me go out with him instead of helping Daddy hold me hostage.
+KAT: I wanted to let you make up your own mind about him.
+BIANCA: Why didn't you tell me?
+KAT: After that, I swore I'd never do anything just because "everyone else" was doing it.  And I haven't since. Except for Bogey's party, and my stunning gastro-intestinal display --
+BIANCA: But
+KAT: Just once.  Afterwards, I told him I didn't want to anymore.  I wasn't ready. He got pissed.  Then he broke up with me.
+BIANCA: You did what?
+KAT: He said everyone was doing it.  So I did it.
+BIANCA: As in...
+KAT: Now I do.  Back then, was a different story.
+BIANCA: But you hate Joey
+KAT: He was, like, a total babe
+BIANCA: Why?
+KAT: In 9th.  For a month
+BIANCA: What?
+KAT: Joey never told you we went out, did he?
+BIANCA: I wish I had that luxury. I'm the only sophomore that got asked to the prom and I can't go, because you won ' t.
+KAT: I do care. But I'm a firm believer in doing something for your own reasons, not someone else ' s .
+BIANCA: Like you care.
+KAT: Listen, I know you hate having to sit home because I'm not Susie High School.
+KAT: You're welcome.
+BIANCA: I don't get you.  You act like you're too good for any of this, and then you go totally apeshit when you get here.
+BIANCA: I really don't think I need any social advice from you right now.
+KAT: Bianca, I need to talk to you -- I need to tell you --
+KAT: Can we go now?
+BIANCA: You are so completely unbalanced.
+BIANCA: Yeah, he's your freak friend Mandella's boyfriend.  I guess since I'm not allowed to go out, I should obsess over a dead guy, too.
+KAT: It's Shakespeare.  Maybe you've heard of him?
+BIANCA: Like I'm supposed to know what that even means.
+KAT: At least I'm not a clouted fen- sucked hedge-pig.
+BIANCA: Can't you forget for just one night that you're completely wretched?
+BIANCA: Bogey Lowenstein's party is normal, but you're too busy listening to Bitches Who Need Prozac to know that.
+KAT: What's normal?
+BIANCA: You're ruining my life'  Because you won't be normal, I can't be normal.
+BIANCA: I think you're a freak.  I think you do this to torture me.  And I think you suck.
+KAT: What do you think?
+BIANCA: Oh, I thought you might have a date  I don't know why I'm bothering to ask, but are you going to Bogey Lowenstein's party Saturday night?
+KAT: It means that Gigglepuss is playing at Club Skunk and we're going.
+BIANCA: Oh my God, does this mean you're becoming normal?
+BIANCA: Can you at least start wearing a bra?
+KAT: I have the potential to smack the crap out of you if you don't get out of my way.
+BIANCA: Nowhere... Hi, Daddy.
+KAT: Where've you been?
+BIANCA: I have a date, Daddy.  And he ' s not a captain of oppression like some men we know.
+WALTER: I'm missing something.
+BIANCA: Fine.  I see that I'm a prisoner in my own house.  I'm not a daughter. I'm a possession!
+WALTER: You're not going unless your sister goes.  End of story.
+BIANCA: He's not a "hot rod".  Whatever that is.
+WALTER: It's that hot rod Joey, right? That ' s who you want me to bend my rules for?
+BIANCA: No, but
+WALTER: The prom?  Kat has a date?
+BIANCA: Daddy, I want to discuss the prom with you. It's tomorrow night --
+WALTER: Because she'll scare them away.
+BIANCA: Why?
+WALTER: Promise me you won't talk to any boys unless your sister is present.
+WALTER: Just for a minute
+BIANCA: Daddy, no!
+WALTER: Wear the belly before you go.
+BIANCA: It's just a party. Daddy.
+WALTER: Oh, God.  It's starting.
+WALTER: If Kat's not going, you're not going.
+BIANCA: Daddy, people expect me to be there!
+BIANCA: It's just a party. Daddy, but I knew you'd forbid me to go since "Gloria Steinem" over there isn't going --
+WALTER: Otherwise known as an orgy?
+BIANCA: If you must know, we were attempting to go to a small study group of friends.
+WALTER: And where're you going?
+BIANCA: Daddy, I --
+WALTER: Exactly my point
+BIANCA: But she doesn't want to date.
+BIANCA: But it's not fair -- she's a mutant, Daddy!
+WALTER: Then neither will you.  And I'll get to sleep at night.
+BIANCA: What if she never starts dating?
+WALTER: No! You're not dating until your sister starts dating.  End of discussion.
+BIANCA: Now don't get upset. Daddy, but there's this boy... and I think he might ask...
+BRUCE: Just sent 'em through.
+PATRICK: Padua girls.  One tall, decent body. The other one kinda short and undersexed?
+BRUCE: Never
+PATRICK: Fan of a fan.  You see a couple of minors come in?
+BRUCE: Didn't have you pegged for a Gigglepuss fan.  Aren't they a little too pre-teen belly-button ring for you?
+PATRICK: Always a pleasure, Brucie.
+MICHAEL: Best case scenario, you're back on the payroll for awhile.
+CAMERON: You humiliated the woman! Sacrifice yourself on the altar of dignity and even the score.
+CAMERON: No, I ' m not.
+MICHAEL: Buttholus extremus.  But hey, you're making progress.
+CAMERON: The hell is that?  What kind of 'guy just picks up a girl and carries her away while you're talking to her?
+MICHAEL: Extremely unfortunate maneuver.
+CAMERON: Hell, I've just been going over the whole thing in my head and -
+MICHAEL: You told me that part already.
+CAMERON: It's her favorite band.
+MICHAEL: Assail your ears for one night.
+CAMERON: Okay!  I wasn't sure
+MICHAEL: He's pretty!
+MICHAEL: Dead at forty-one.
+CAMERON: Her favorite uncle
+MICHAEL: It's a lung cancer issue
+CAMERON: Number one.  She hates smokers
+MICHAEL: Are you kidding?  He'll piss himself with joy.  He's the ultimate kiss ass.
+CAMERON: Will Bogey get bent?
+MICHAEL: In that case, we'll need to make it a school-wide blow out.
+CAMERON: This is it.  A golden opportunity. Patrick can ask Katarina to the party.
+MICHAEL: Like we had a choice?  Besides -- when you let the enemy think he's orchestrating the battle, you're in a position of power. We let him pretend he's calling the shots, and while he's busy setting up the plan, you have time to woo Bianca.
+CAMERON: You got him involved?
+MICHAEL: Hey -- I've gotta have a few clients when I get to Wall Street.
+CAMERON: I thought you hated those people.
+MICHAEL: You know, if you do go out with Bianca, you'd be set.  You'd outrank everyone. Strictly A-list.  With me by your side.
+CAMERON: That's what I just said
+MICHAEL: Did she actually say she'd go out with you?
+CAMERON: Forget his reputation.  Do you think we've got a plan or not?
+MICHAEL: I'm serious, man, he's whacked.  He sold his own liver on the black market so he could buy new speakers.
+CAMERON: They always let felons sit in on Honors Biology?
+MICHAEL: No kidding.  He's a criminal.  I heard he lit a state trooper on fire.  He just got out of Alcatraz...
+CAMERON: He seems like he thrives on danger
+MICHAEL: What makes you think he'll do it?
+MICHAEL: You wanna go out with him?
+CAMERON: What about him?
+MICHAEL: Unlikely, but even so, she still can't go out with you.  So what's the point?
+CAMERON: I teach her French, get to know her, dazzle her with charm and she falls in love with me.
+MICHAEL: The mewling, rampalian wretch herself.
+CAMERON: That's her?  Bianca's sister?
+MICHAEL: Yeah, just a minor encounter with the shrew.
+MICHAEL: You could consecrate with her, my friend.
+CAMERON: You mean I'd get a chance to talk to her?
+MICHAEL: Guess who just signed up for a tutor?
+CAMERON: Sure do ... my Mom's from Canada
+MICHAEL: You know French?
+MICHAEL: Joey Dorsey?  Perma-shit-grin.  I wish I could say he's a moron, but he's number twelve in the class.  And a model.  Mostly regional stuff, but he's rumored to have a big tube sock ad coming out.
+CAMERON: He always have that shit-eating grin?
+MICHAEL: Because they're bred to.  Their mothers liked guys like that, and their grandmothers before them. Their gene pool is rarely diluted.
+CAMERON: Why do girls like that always like guys like that?
+MICHAEL: I could start with your haircut, but it doesn't matter.  She's not allowed to date until her older sister does.  And that's an impossibility.
+CAMERON: Why not?
+MICHAEL: Bianca Stratford.  Sophomore. Don't even think about it
+CAMERON: Who is she?
+MICHAEL: You burn, you pine, you perish?
+CAMERON: That girl -- I --
+MICHAEL: Yeah, but these guys have never seen a horse.  They just jack off to Clint Eastwood.
+CAMERON: That I'm used to.
+MICHAEL: Couple thousand. Most of them evil
+CAMERON: How many people go here?
+MICHAEL: Get out!
+CAMERON: Thirty-two.
+MICHAEL: How many people were in your old school?
+CAMERON: Yeah.  A couple.  We're outnumbered by the cows, though.
+MICHAEL: I was kidding. People actually live there?
+CAMERON: North, actually.  How'd you   ?
+MICHAEL: So -- which Dakota you from?
+MICHAEL: C'mon.  I'm supposed to give you the tour.
+CAMERON: So they tell me...
+MICHAEL: You the new guy?
+CAMERON: You get the girl.
+PATRICK: What's the worst?
+PATRICK: Where?
+CAMERON: She kissed me.
+PATRICK: You makin' any headway?
+PATRICK: She just needs time to cool off I'll give it a day.
+CAMERON: She hates you with the fire of a thousand suns .  That's a direct quote
+PATRICK: I don ' t know.  I decided not to nail her when she was too drunk to remember it.
+CAMERON: What'd you do to her?
+PATRICK: Then, go get her
+CAMERON: Sure
+PATRICK: Cameron -- do you like the girl?
+CAMERON: She's partial to Joey, not me
+PATRICK: What 're you talking about?
+CAMERON: It's off. The whole thing.
+PATRICK: Cameron, I'm a little busy
+PATRICK: Don't make me do it, man
+CAMERON: Gigglepuss is playing there tomorrow night.
+PATRICK: So what does that give me?  I'm supposed to buy her some noodles and a book and sit around listening to chicks who can't play their instruments?
+CAMERON: Okay -- Likes:  Thai food, feminist prose, and "angry, stinky girl music of the indie-rock persuasion".
+CAMERON: I've retrieved certain pieces of information on Miss Katarina Stratford I think you'll find helpful.
+PATRICK: What've you got for me?
+PATRICK: Yeah -- we'll see.
+CAMERON: And he means that strictly in a non- prison-movie type of way.
+JOEY: And why would I do that?
+KAT: Leave my sister alone.
+JOEY: Your sister here?
+KAT: Away.
+JOEY: Where ya goin?
+JOEY: Not at all
+KAT: Hey -- do you mind?
+JOEY: They're running the rest of me next month.
+KAT: Yeah, and I noticed the only part of you featured in your big Kmart spread was your elbow.  Tough break.
+JOEY: The vintage look is over, Kat. Haven't you been reading your Sassy?
+JOEY: Enough with the Barbie n' Ken shit. I know.
+PATRICK: I don't know, Dorsey. ..the limo.-the flowers.  Another hundred for the tux --
+JOEY: Get her to act like a human
+PATRICK: Do what?
+JOEY: How'd you do it?
+JOEY: A deal's a deal.
+PATRICK: It's about time.
+PATRICK: Forget her sister, then.
+JOEY: Forget it.
+PATRICK: A hundred bucks a date.
+JOEY: What?
+PATRICK: I just upped my price
+PATRICK: I got her under control. She just acts crazed in public to keep up the image.
+JOEY: Watching the bitch trash my car doesn't count as a date.
+PATRICK: I'm on it
+JOEY: When I shell out fifty, I expect results.
+PATRICK: Fifty, and you've got your man.
+JOEY: Take it or leave it.  This isn't a negotiation.
+JOEY: Fine, thirty.
+PATRICK: I can't take a girl like that out on twenty bucks.
+PATRICK: How much?
+JOEY: I can't date her sister until that one gets a boyfriend.  And that's the catch. She doesn't want a boyfriend.
+PATRICK: You're gonna pay me to take out some girl?
+JOEY: You got it, Verona.  I pick up the tab, you do the honors.
+JOEY: But you'd go out with her if you had the cake?
+PATRICK: You need money to take a girl out
+JOEY: You just said
+PATRICK: Sure, Sparky.  I'll get right on it.
+JOEY: Yeah, whatever.  I want you to go out with her.
+PATRICK: Two legs, nice rack...
+JOEY: What do you think?
+PATRICK: Yeah
+MICHAEL: Hey -- it's all for the higher good right?
+JOEY: You better not fuck this up.  I'm heavily invested.
+MICHAEL: What?  We took bathes together when we were kids.
+JOEY: You and Verona?
+MICHAEL: Uh,  yeah.  We're old friend*
+JOEY: I hear you're helpin' Verona.
+MICHAEL: So what you need to do is recruit a guy who'll go out with her.  Someone who's up for the job.
+JOEY: Does this conversation have a purpose?
+MICHAEL: But she can't go out with you because her sister is this insane head case and no one will go out with her. right?
+JOEY: We're not.
+MICHAEL: Well, actually, I thought I'd run an idea by you.  You know, just to see if you're interested.
+JOEY: We don't chat.
+MICHAEL: Nope - just came by to chat
+JOEY: Are you lost?
+MICHAEL: Hey.
+KAT: Oh, honey -- tell me we haven't' progressed to full-on hallucinations.
+MANDELLA: William - he asked me to meet him here.
+KAT: Who?
+MANDELLA: Have you seen him?
+MANDELLA: Oh, good.  Something new and different for us.
+KAT: You ' re looking at this from the wrong perspective.  We're making a statement.
+MANDELLA: Okay, okay, we won't go.  It's not like I have a dress anyway
+KAT: Listen to you!  You sound like Betty, all pissed off because Archie is taking Veronica.
+MANDELLA: Well, I guess we're not, since we don't have dates .
+KAT: Can you even imagine?  Who the hell would go to this a bastion of commercial excess?
+KAT: I got drunk.  I puked.  I got rejected. It was big fun.
+MANDELLA: You didn't
+KAT: I did Bianca a favor and it backfired.
+MANDELLA: You didn't have a choice?  Where's Kat and what have you done with her?
+KAT: I didn't have a choice.
+MANDELLA: You went to the party?  I thought we were officially opposed to suburban social activity.
+KAT: Who cares?
+MANDELLA: What'd he say?
+KAT: No fear.
+MANDELLA: You think this'll work?
+KAT: If I was Bianca, it would be, "Any school you want, precious.  Don't forget your tiara."
+MANDELLA: Does it matter?
+KAT: I appreciate your efforts toward a speedy death, but I'm consuming.  Do you mind?
+KAT: Neither has his heterosexuality.
+MANDELLA: That's never been proven
+KAT: William didn't even go to high school
+MANDELLA: William would never have gone to a state school.
+KAT: So he has this huge raging fit about Sarah Lawrence and insists that I go to his male-dominated, puking frat boy, number one golf team school. I have no say at all.
+MANDELLA: You could always go with me.  I'm sure William has some friends.
+KAT: The people at this school are so incredibly foul.
+MANDELLA: But imagine the things he'd say during sex.
+KAT: I realize that the men of this fine institution are severely lacking, but killing yourself so you can be with William Shakespeare is beyond the scope of normal teenage obsessions.  You're venturing far past daytime talk show fodder and entering the world of those who need very expensive therapy.
+MANDELLA: An attempted slit.
+KAT: What's this?
+MANDELLA: Just a little.
+KAT: Mandella, eat.  Starving yourself is a very slow way to die.
+KAT: Block E?
+MANDELLA: He always look so
+KAT: I'm sure he's completely incapable of doing anything that interesting.
+MANDELLA: That's Pat Verona? The one who was gone for a year? I heard he was doing porn movies.
+KAT: Patrick Verona   Random skid.
+MANDELLA: Who's that?
+PATRICK: Don ' t you even dare. . .
+KAT: Oh, Bianca?  Can you get me my freshman yearbook?
+PATRICK: Because I like to torture you.
+KAT: Why is my veggie burger the only burnt object on this grill?
+PATRICK: Yeah, but then I fucked up. I fell for her.
+KAT: Is that right?
+PATRICK: Besides, I had some extra cash. Some asshole paid me to take out a really great girl.
+PATRICK: I thought you could use it. When you start your band.
+KAT: A Fender Strat. You bought this?
+PATRICK: I didn't care about the money.
+KAT: Really?  What was it like?  A down payment now, then a bonus for sleeping with me?
+PATRICK: It wasn't like that.
+KAT: You were paid to take me out!  By -- the one person I truly hate.  I knew it was a set-up!
+PATRICK: Wait I...
+PATRICK: It gets worse -- you still have your freshman yearbook?
+KAT: That ' s completely adorable!
+PATRICK: That's where I was last year.  She'd never lived alone -- my grandfather died -- I stayed with her.  I wasn't in jail, I don't know Marilyn Manson, and I've never slept with a Spice Girl.  I spent a year sitting next to my grandma on the couch watching Wheel of Fortune.  End of story.
+KAT: What?
+PATRICK: My grandmother's .
+KAT: Look, I'm  -- sorry -- that I questioned your motives.  I was wrong.
+PATRICK: Oh huh
+KAT: It's just something I had.  You know
+PATRICK: It's Scurvy's.  His date got convicted. Where'd you get the dress?
+KAT: How'd you get a tux at the last minute?
+PATRICK: Nothing!  There's nothing in it for me. Just the pleasure of your company.
+KAT: Answer the question, Patrick
+PATRICK: You need therapy.  Has anyone ever told you that?
+KAT: You tell me.
+PATRICK: So I have to have a motive to be with you?
+KAT: Create a little drama?  Start a new rumor?  What?
+KAT: Because I don't want to. It's a stupid tradition.
+PATRICK: Why not?
+KAT: No, I won't go with you
+PATRICK: No what?
+KAT: No.
+PATRICK: You know what I mean
+KAT: Is that a request or a command?
+PATRICK: Go to the prom with me
+KAT: You're amazingly self-assured. Has anyone ever told you that?
+PATRICK: No one else knows
+KAT: What?
+PATRICK: You're sweet.  And sexy.  And completely hot for me.
+KAT: No -- something real.  Something no one else knows.
+PATRICK: I hate peas.
+KAT: Tell me something true.
+KAT: I know the porn career's a lie.
+PATRICK: Hearsay.
+KAT: The duck?
+PATRICK: Fallacy.
+KAT: State trooper?
+KAT: For. . . ?
+PATRICK: You up for it?
+PATRICK: You never disappointed me.
+KAT: How?
+PATRICK: Then you screwed up
+KAT: Something like that
+PATRICK: So if you disappoint them from the start, you're covered?
+KAT: I don't like to do what people expect. Then they expect it all the time and they get disappointed when you change.
+PATRICK: Yes
+KAT: Acting the way we do.
+PATRICK: So what's your excuse?
+KAT: Yeah, well, don't let it get out
+PATRICK: A soft side? Who knew?
+KAT: I dazzled him with my wit
+PATRICK: So how'd you get Chapin to look the other way?
+KAT: Good call.
+PATRICK: I figured it had to be something ridiculous to win your respect.  And piss you off.
+KAT: The Partridge Family?
+PATRICK: Maybe.
+KAT: You want me to climb up and show you how to get down?
+PATRICK: Forget it.  I'm stayin'.
+KAT: Put your right foot there --
+PATRICK: Try lookin' at it from this angle
+KAT: C'mon.  It's not that bad
+PATRICK: I guess I never told you I'm afraid of heights.
+PATRICK: Look up, sunshine
+KAT: He left!  I sprung the dickhead and he cruised on me.
+KAT: Other than my upchuck reflex? Nothing.
+PATRICK: So what did I have an effect on ?
+KAT: Don't for one minute think that you had any effect whatsoever on my panties.
+PATRICK: Unwelcome?  I guess someone still has her panties in a twist.
+KAT: Unwelcome.
+PATRICK: Wholesome.
+PATRICK: Pleasant?
+KAT: You 're so --
+PATRICK: I heard there was a poetry reading.
+KAT: What are you doing here?
+PATRICK: Excuse me, have you seen The Feminine Mystique?  I lost my copy.
+PATRICK: No offense, but you're sister is without.  I know everyone likes her and all, but ...
+KAT: BIANCA
+PATRICK: Who?
+KAT: He just wants me to be someone I'm not.
+PATRICK: So what ' s up with your dad?  He a pain in the ass?
+PATRICK: I'm gettin' there
+KAT: Oh, so now you think you know me?
+PATRICK: You don't strike me as the type that would ask permission.
+KAT: My father wouldn't approve of that that
+PATRICK: Start a band?
+KAT: This.
+PATRICK: Do what?
+KAT: I should do this.
+KAT: Why'd you lie?
+PATRICK: Then why'd you ask?
+KAT: No, you weren't
+PATRICK: Maybe.
+KAT: Were you in jail?
+PATRICK: Busy
+KAT: When you were gone last year -- where were you?
+KAT: But it's Gigglepuss - I know you like them.  I saw you there.
+PATRICK: And I'm in control of it.
+KAT: What?
+PATRICK: Kat! Wake up!
+KAT: You know what they say
+PATRICK: I thought you were above all that
+KAT: Hey man. . .  You don ' t think I can be "cool"?  You don't think I can be "laid back" like everyone else?
+PATRICK: I know.  It'd have to be a pretty big deal to get you to mainline tequila. You don't seem like the type.
+KAT: I hate him.
+PATRICK: Dorsey.
+KAT: Who?
+PATRICK: Why'd you let him get to you?
+KAT: Just let me sit down.
+PATRICK: See that?  Who needs affection when I've got blind hatred?
+KAT: Like you could find one
+PATRICK: Because then I'd have to start taking out girls who like me.
+KAT: Why?
+PATRICK: Sure, I do
+KAT: You don't care if I die
+PATRICK: I told you
+KAT: Why 're you doing this?
+PATRICK: Leave it to you to use big words when you're shitfaced.
+KAT: This is so patronizing.
+PATRICK: What if you have a concussion? My dog went to sleep with a concussion and woke up a vegetable. Not that I could tell the difference...
+KAT: I know, just let me sleep
+PATRICK: Uh, uh. You lie down and you'll go to sleep
+KAT: I just need to lie down for awhile
+PATRICK: You're not okay.
+KAT: I'm fine. I'm
+PATRICK: Okay?
+KAT: Funny, you're the only one
+PATRICK: I say, do what you wanna do.
+KAT: "I'm getting trashed, man." Isn't that what you're supposed to do at a party?
+PATRICK: What's this?
+PATRICK: Why, don't you?
+KAT: You know who The Raincoats are?
+PATRICK: You know, these guys are no Bikini Kill or The Raincoats, but they're right up there.
+PATRICK: Do you mind?  You're sort of ruining it for me.
+KAT: That's what you want, isn't it?
+PATRICK: Excuse me?
+PATRICK: hey.  Great show, huh?
+KAT: Depends on the topic. My fenders don't really whip me into a verbal frenzy.
+PATRICK: You're not a big talker, are you?
+KAT: Hi
+PATRICK: I was in the laundromat. I saw your car. Thought I'd say hi.
+KAT: Are you following me?
+PATRICK: Seven-thirty?
+KAT: You -- covered in my vomit.
+PATRICK: Come on -- the ponies, the flat beer, you with money in your eyes, me with my hand on your ass...
+KAT: And why would I do that?
+PATRICK: Then say you'll spend Dollar Night at the track with me.
+KAT: I don't really think you warrant that strong an emotion.
+PATRICK: You hate me don't you?
+PATRICK: I know a lot more than that
+KAT: Like where?  The 7-Eleven on Burnside? Do you even know my name, screwboy?
+PATRICK: The night I take you to places you've never been before.  And back.
+KAT: Oh, right.  Friday.
+PATRICK: Pick you up Friday, then
+KAT: My mission in life.
+PATRICK: There's a way to get a guy's attention.
+KAT: Sweating like a pig, actually.  And yourself?
+PATRICK: I mean Wo-man.  How ya doin'?
+WALTER: Oh, Christ.  Don't tell me you've changed your mind.  I already sent 'em a check.
+KAT: When I go?
+WALTER: You know, fathers don't like to admit that their daughters are capable of running their own lives.  It means we've become spectators.  Bianca still lets me play a few innings.  You've had me on the bleachers for years.  When you go to Sarah Lawrence, I won't even be able to watch the game.
+WALTER: No -- impressed.
+KAT: What's the matter?  Upset that I rubbed off on her?
+WALTER: Bianca did what?
+KAT: The part where Bianca beat the hell out of some guy.
+WALTER: Which parts?
+KAT: Parts of it.
+WALTER: So tell me about this dance. Was it fun?
+KAT: No, Daddy.
+WALTER: I don't understand the allure of dehydrated food.  Is this something I should be hip to?
+WALTER: Funny.
+KAT: Yeah.  She left with some bikers Big ones.  Full of sperm.
+WALTER: Was that your sister?
+KAT: I want to go to an East Coast school! I want you to trust me to make my own choices.  I want --
+WALTER: You're eighteen.  You don't know what you want.  You won't know until you're forty-five and you don't have it.
+KAT: So what I want doesn't matter?
+WALTER: As a parent, that's my right
+KAT: Because you're making decisions for me.
+WALTER: Why can't we agree on this?
+KAT: I thought you were punishing me.
+WALTER: Is this about Sarah Lawrence? You punishing me?
+KAT: Then tell them I had a seizure.
+WALTER: My insurance does not cover PMS
+WALTER: Enough!
+KAT: This from someone whose diary is devoted to favorite grooming tips?
+KAT: You decided.
+WALTER: I thought we decided you were going to school here.  At U of 0.
+KAT: I know.
+MISS PERKY: Just smack her now.
+KAT: Am I supposed to feel better? Like, right now?  Or do I have some time to think about it?
+MISS PERKY: No ... I believe "heinous bitch" is the term used most often.
+KAT: Tempestuous?
+MISS PERKY: The point is Kat -- people perceive you as somewhat ...
+KAT: I still maintain that he kicked himself in the balls.  I was merely a spectator.
+MISS PERKY: Well, yes, compared to your other choices of expression this year, today's events are quite mild.  By the way, Bobby Rictor's gonad retrieval operation went quite well, in case you're interested.
+KAT: Expressing my opinion is not a terrorist action.
+MISS PERKY: Katarina Stratford.  My, my.  You've been terrorizing Ms. Blaise again.
+MANDELLA: Yeah...
+MICHAEL: Kat a fan, too?
+MANDELLA: Right.
+MICHAEL: Macbeth, right?
+MICHAEL: Oh yeah.
+MANDELLA: You think?
+MANDELLA: Yeah.  I guess.
+MICHAEL: Cool pictures.  You a fan?
+MANDELLA: Hi.
+MICHAEL: Hey there.  Tired of breathing?
+PATRICK: Man -- don't say shit like that to  me. People can hear you.
+MICHAEL: Sweet love, renew thy force!
+PATRICK: You were right. She's still pissed.
+PATRICK: No - I've got a sweet-payin' job that I'm about to lose.
+MICHAEL: So you got cozy with she who stings?
+PATRICK: I'm likin' you guys better
+MICHAEL: I prefer to think of it simply as an alternative to what the law allows.
+PATRICK: Yeah.
+MICHAEL: Ever been to Club Skunk?
+MICHAEL: Just for now.
+PATRICK: Are you telling me I'm a -  "non-smoker"?
+MICHAEL: Good enough.
+PATRICK: What?!
+MICHAEL: We're your guys.
+PATRICK: You two are gonna help me tame the wild beast?
+MICHAEL: Patrick, Pat, you're not looking at the big picture.  Joey's just a pawn. We set this whole thing up so Cameron can get the girl.
+PATRICK: So Dorsey can get the girl?
+MICHAEL: That's where we can help you.  With Kat.
+PATRICK: Dorsey can plow whoever he wants. I'm just in this for the cash.
+MICHAEL: I think I speak correctly when I say that Cameron's love is pure.  Purer than say -- Joey Dorsey's.
+PATRICK: What is it with this chick?  She have three tits?
+MICHAEL: The situation is, my man Cameron here has a major jones for Bianca Stratford.
+PATRICK: What plan?
+PATRICK: Whatever the hell it is you're standin' there waitin' to say.
+MICHAEL: What?
+PATRICK: Say it
+PATRICK: See you next week!
+MISS PERKY: You're completely demented.
+PATRICK: Well, you know -- there's the prestige of the job title... and the benefits package is pretty good...
+MISS PERKY: You weren't abused, you aren't stupid, and as far as I can tell, you're only slightly psychotic -- so why is it that you're such a fuck-up?
+PATRICK: What's to discuss?
+MISS PERKY: Why don't we discuss your driving need to be a hemorrhoid?
+MISS PERKY: I'm at a loss, then.  What should we talk about? Your year of absence?
+PATRICK: Touch of the flu.
+MISS PERKY: I don't understand, Patrick.  You haven't done anything asinine this week. Are you not feeling well?
+MISS PERKY: With the teeth of your zipper?
+PATRICK: It was a bratwurst.  I was eating lunch.
+MISS PERKY: It says here you exposed yourself to a group of freshmen girls.
+PATRICK: I missed you.
+WALTER: That ' s what I thought
+SHARON: Absolutely not.
+WALTER: Did I have anything to say about it?
+SHARON: Your daughters went to the prom.
+WALTER: What just happened?
+WALTER: But -- who -- what --?
+SHARON: Have a great time, honey!
+SHARON: Dr. Ruth?
+WALTER: What do you wanna watch?  We've got crap, crap, crap or crap
+WALTER: Kissing?  Is that what you think happens?  Kissing isn't what keeps me up to my elbows in placenta all day.
+SHARON: They'll dance, they'll kiss, they'll come home.  Let her go.
+WALTER: Pirate -- no question.
+SHARON: Would you rather be ravished by a pirate or a British rear admiral?
+WALTER: You're not helping.
+SHARON: Tumescent!
+WALTER: Jesus!  Can a man even grab a sandwich before you women start dilating?
+WALTER: Sarah Lawrence is on the other side of the country.
+SHARON: What's a synonym for throbbing?
+WALTER: Make anyone cry today?
+SHARON: In the microwave.
+ALONSO: Can't be that far, I say.  Also, I don't like the smell of the sea around here.  Smells like a cunt. Bad sign...
+SAILOR: We left three weeks ago, Alonso. Can't be that near.
+ALONSO: We should have seen land.
+SAILOR: We'll all go crazy...
+ALONSO: He's the devil's child...
+ALONSO: With a face like that?  I don't want you looking at me.  You hear?
+SAILOR: Ah, leave him alone.  He's doing no harm.
+ALONSO: What are you listening to, chicken ass?
+ALONSO: You'll be drinking your own piss... For the glory of Spain... and Admiral Colon...!  Bastard!
+SAILOR: The water's going putrid in the barrels.
+ALONSO: I never seen heat like this!  Not even in Las Minas!
+AROJAZ: IF-GOD-WILLS-IT!
+COLUMBUS: Asia can be found to the west -- and I will prove it.
+COLUMBUS: Blind faith is what I consider heresy!
+AROJAZ: Don't you realize your words could be considered heretical?
+COLUMBUS: Did He not choose a carpenter's son to reveal Himself to the world?
+AROJAZ: If God intended our proximity to Asia, do you believe he would have waited for you to show it to the world?
+COLUMBUS: No.  The Portuguese have already discovered black-skinned people.  I, too, will find other populations -- and bring them to the word of God.
+AROJAZ: Is that all that interests you? Gold?
+COLUMBUS: Trade, Your Excellency.  According to Marco Polo, the Kingdom of China is one of the richest of the world. Even the meanest buildings are roofed with gold.
+COLUMBUS: If they agree to follow me, yes.
+AROJAZ: Your life, and that of others!
+COLUMBUS: Your Eminence, there is only one way to settle the matter.  And that is to make the journey.  I am ready to risk my life to prove it possible.
+COLUMBUS: Excellency, you are right.
+AROJAZ: Senor Colon, an experienced captain such as yourself will understand our concern with the crew.  I am not willing to have on my conscience the loss of men who would have relied upon our judgment.
+AROJAZ: Then you cannot ignore that according to their calculations, the circumference of the Earth is approximately...  22,000 leagues or more.  Which makes the ocean... uncrossable.
+COLUMBUS: I am, Your Eminence
+AROJAZ: Unfortunately, Don Colon, that is precisely where our opinions differ...  Are you familiar with the work of Aristotle?  Erathostene?  Ptolemeus?
+COLUMBUS: Yes, your Eminence.  The voyage should not take more than six or seven weeks.
+AROJAZ: You say Asia can be found by sailing west?
+SANCHEZ: A waste...?  Let me tell you something, Arojaz.  If your name, or mine, is ever remembered -- it will only be because of his.
+AROJAZ: What a tragedy... what a waste of a life...
+SANCHEZ: You can see for yourself.
+SANCHEZ: On the contrary, Your Eminence.  It seems to me the man is preparing his own cross.
+AROJAZ: It won't be easy to get rid of your prophet now, Don Sanchez.
+SANCHEZ: Indeed.  The world is full of mercenaries -- and states often make use of them, when it benefits them.  My only concern is the welfare and prosperity of Spain.
+AROJAZ: He is a mercenary!  Did he not already try to convince the King of Portugal of his absurd notions?
+SANCHEZ: Naturally.  But I would really deplore the loss of such a potential opportunity for Spain for a... dispute over a point of geography.
+AROJAZ: The Judgment is ours!
+SANCHEZ: The State has some reason to be interested in this man's proposition, Your Eminence...
+COLUMBUS: I can't keep my eyes off you.  I would like to catch up with all the moments I didn't spend with you.
+BEATRIX: What is it, now?  Tell me...
+BEATRIX: I am busy inside.
+COLUMBUS: Can't you stay with us a little?
+COLUMBUS: Not everything... Do you think I care?  I'm a free man again.  Riches don't make a man rich, they only make him busier...
+BEATRIX: They took everything...
+BEATRIX: They tried... but I didn't let them.
+COLUMBUS: God... you're so beautiful!  I can't believe no other man has ever taken you away from me...
+COLUMBUS: I can arrange for the Queen to take Fernando and Diego into her service.
+BEATRIX: You don't usually ask.
+COLUMBUS: Beatrix, I want to ask you something.
+BEATRIX: That's something you can't decide.
+COLUMBUS: I don't want you to wait for me.
+BEATRIX: I'm not asking you to swear to anything.
+BEATRIX: Thank God...
+COLUMBUS: She said yes.
+BEATRIX: I find that hard to believe.
+COLUMBUS: Perhaps I was never meant to live with a woman...
+BEATRIX: I'd love to argue with you sometimes.  But you're never here!
+COLUMBUS: Are we going to argue?
+BEATRIX: Well... that's true.  I have a child by a man who won't marry me!  Who's always leaving...
+COLUMBUS: I haven't given you much of a life.
+BEATRIX: I know.
+COLUMBUS: I could be gone for years.
+BOBADILLA: I am afraid this is not the worst news.
+COLUMBUS: How could I be?  The mainland has been found.  Exactly as I said it would.
+BOBADILLA: I am not a seaman.  But I heard it is no more than a week at sea.  I hope you are not too disappointed.
+COLUMBUS: How far from here?
+COLUMBUS: Congratulations.  Then I am free to search for the mainland.
+BOBADILLA: Viceroy of the West Indies.
+COLUMBUS: Appointment to what?
+BOBADILLA: My letters of appointment.
+COLUMBUS: Yes... I remember...
+BOBADILLA: Don Alonso de Bobadilla.
+COLUMBUS: Bartolome and Giacomo Colon.
+BOBADILLA: May I ask by whom?
+COLUMBUS: Forgive me, Don Bobadilla -- those positions have already been taken.
+BOBADILLA: I understand that you will soon be appointing Governors for the islands?  Is it not so?
+FERNANDO: Tell me the first thing that comes to your mind.
+COLUMBUS: Really?  God... I wouldn't know where to start... and yet...
+FERNANDO: I want you to tell me everything you remember, Father.  From the beginning.  Everything.
+COLUMBUS: He never had one... except aboard my ships!
+FERNANDO: He asks when he can come to visit you.  He left his address.
+COLUMBUS: What does he say?
+FERNANDO: I am not listening, Father.  But I can't help hearing.
+COLUMBUS: What are you listening to?
+COLUMBUS: There must be a passage to that other ocean.
+FERNANDO: Father...
+FERNANDO: Not bad.
+COLUMBUS: How are you feeling, Fernando?
+FERNANDO: This time with me!
+COLUMBUS: I have to explore the mainland.
+COLUMBUS: Yes... Yes, I do... On all of them!
+FERNANDO: Do you swear on all the Holy Saints in heaven?
+FERNANDO: You promise?  Do you swear on St. Christopher...?
+COLUMBUS: There'll be a time.
+FERNANDO: I want to go with you!
+COLUMBUS: All of them created by people like me.
+SANCHEZ: Roofs... towers, palaces... spires...
+COLUMBUS: What do you see?
+COLUMBUS: Look out of that window.
+SANCHEZ: I am not afraid of you.  You are nothing but a dreamer.
+COLUMBUS: Call them.
+SANCHEZ: All I have to do is call the guards.
+SANCHEZ: To rise so high, in so short a time, is a dangerous occupation.  A little hypocrisy goes a long way.
+COLUMBUS: What...?  Do I have so many already?
+SANCHEZ: You seem to have a special talent for making friends.
+COLUMBUS: Good!  We are also in need of judges.  Except there are no thieves!
+SANCHEZ: Don Bobadilla is already a judge, my Dear Don Cristobal.
+COLUMBUS: But we do have a lack of notaries. You should contact my administration.
+COLUMBUS: ... for a commoner?
+SANCHEZ: You defend yourself admirably...
+SANCHEZ: Forgive me, Don Colon.  But what about gold?
+COLUMBUS: They don't see sin in their nakedness.  They live according to nature, in a never ending summer. The islands are covered with trees, filled with blossoms and fruits. And...
+SANCHEZ: If you won't accept our proposal, we'll simply find someone who will.
+COLUMBUS: And were you never ambitious, Excellency?  Or is ambition only a virtue among the nobles, a fault for the rest of us?
+SANCHEZ: Then you are too ambitious.
+COLUMBUS: I'm not bargaining!
+SANCHEZ: I remind you, Senor Colon, that you are in no position to bargain with me.
+COLUMBUS: NO...!  I have waited too long, fought too hard.  Now you expect me to take all the risks while you take the profit!  No... I will not be your servant!
+SANCHEZ: No?
+COLUMBUS: No...
+UTAPAN: You never learned how to speak my language.
+COLUMBUS: Utapan, won't you speak to me?  You used to know how to speak to me.
+UTAPAN: You did the same to your God!
+COLUMBUS: You have to find them, Utapan.  Look what they did!
+COLUMBUS: Ask him if he will help.
+UTAPAN: He understands.
+COLUMBUS: We will work with his people.  We want peace.  Ask the Chief if he understands?
+COLUMBUS: He has medicine.  Tell him we admire his people.
+UTAPAN: Chief says...
+COLUMBUS: ... and also to bring medicine.
+UTAPAN: Chief says -- he has a God.
+COLUMBUS: To bring the word of God.
+UTAPAN: Why?
+COLUMBUS: Thousands.
+UTAPAN: Chief says -- how many?
+COLUMBUS: Tell him his country is very beautiful.  Tell him we are leaving men here -- to build a fort.
+UTAPAN: Chief knows.
+COLUMBUS: Tell the Chief we thank him.
+UTAPAN: You come!  You speak first!
+UTAPAN: Island.  Far.
+COLUMBUS: What is it?  A tribe?  An island?
+UTAPAN: Say not here!  Cuba!
+COLUMBUS: I don't know... I have the impression that I didn't change that much.  I still can't accept the world as it is!
+MARCHENA: Oh?  So you are a new man?
+COLUMBUS: New worlds create new people.
+MARCHENA: I knew you would.
+COLUMBUS: I have to disagree.
+COLUMBUS: You'll always be older than me, Father.
+MARCHENA: I suppose we're both old men now.
+COLUMBUS: Give me absolution.
+MARCHENA: I believed in you...
+COLUMBUS: You are bound by an oath, Father.
+MARCHENA: My son, my son...  Your certitudes are sometimes frightening...  Christopher, you must speak to them. And if you don't I will.
+COLUMBUS: If I tell them, they won't follow me.  You know that I am right, Father.  You trust me...
+MARCHENA: May God forgive you...!  You must tell them!  You must tell your men!
+COLUMBUS: I am not sure... It could be twice the distance.
+MARCHENA: How long?
+COLUMBUS: I lied.  The journey will be longer than I said.
+MARCHENA: What are you saying?
+COLUMBUS: Father, I have betrayed my family. I betrayed my men.  And I betrayed you.
+MARCHENA: I am listening, my son.
+COLUMBUS: Forgive me, Father.  For I have sinned.
+MARCHENA: In Nomine Patris et Filius, et Spiritus Sancti.
+MARCHENA: Colon!  Don't!
+COLUMBUS: All of them!  Just lies!
+COLUMBUS: Damn all of you!  You all set up theories based on what?  You never leave the safety of your studies! Go out!  Find out what the world is about and then tell me something I can listen to!
+MARCHENA: Colon!
+COLUMBUS: Damn God!
+MARCHENA: If God intends you to go, then you will go.
+COLUMBUS: Wait!  I've waited seven years already!  How much longer do you want me to wait?
+MARCHENA: You mustn't give way to despair. You must wait.
+MARCHENA: Only God knows the meaning of such words, my son.
+COLUMBUS: I've been contradicted all my life... Eternity!
+MARCHENA: You get so carried away when you are being contradicted!
+COLUMBUS: Passion is something one cannot control!
+MARCHENA: Father Marchena!
+COLUMBUS: I'll try to remember that, Marchena...
+MARCHENA: Two minutes... and already you're a dead man.  Don't let passion overwhelm you, Colon.
+COLUMBUS: So was Christ!
+MARCHENA: Esdras is a Jew.
+COLUMBUS: The calculations of Toscanelli Marin de Tyr, Esdras...
+MARCHENA: How can you be so certain?
+COLUMBUS: Ignorance!  I believe the Indies are no more than 750 leagues west of the Canary Islands.
+MARCHENA: How can you be so certain?  The Ocean is said to be infinite.
+COLUMBUS: To open a new route to Asia.  At the moment there are only two ways of reaching it...
+MARCHENA: Why do you wish to sail west?
+MARCHENA: With some difficulty.  I had to promise them you were not a total fool.
+COLUMBUS: How did you manage it?
+MARCHENA: That's what it says.
+COLUMBUS: God... That's in a week!
+COLUMBUS: Father, I am doing what I think is the best for him.  And he has the teacher I would have chosen for myself.
+MARCHENA: Diego is a bright boy -- a pleasure to teach -- but so serious... Brothers should be raised together, Colon.  Even brothers from different mothers...
+COLUMBUS: Your Majesty -- some men are content to read about things.  I must see them with my own eyes.  I cannot be other than I am.
+ISABEL: There is one thing I'd like to understand... Why do you want to go back, after all this?
+COLUMBUS: Thank you.
+ISABEL: But without your brothers.  Nor are you to return to Santo Domingo or any of the other colonies.  You may explore the continent.
+COLUMBUS: They come and go as naked as the day God created them...
+ISABEL: Do they have such thoughts?
+COLUMBUS: Thirty seven, Your Majesty... And you?
+ISABEL: How old are you, Senor Colon?
+ISABEL: A woman?
+COLUMBUS: I know what I see.  I see someone who doesn't accept the world as it is.  Who's not afraid.  I see a women who thinks... "What if?"...
+ISABEL: You show no inclination to speak otherwise!
+COLUMBUS: May I speak freely?
+COLUMBUS: Surely you can do anything you want.
+ISABEL: I cannot ignore the verdict of my council.
+ISABEL: That she was impregnable.
+COLUMBUS: What did they say about Granada before today?
+ISABEL: The ocean is uncrossable?
+COLUMBUS: No more than the woman who said she would take Granada from the Moors.
+ISABEL: I should not even be listening to you, since my council said no.  But Santangel tells me you are a man of honor and sincerity... And Sanchez, that you are not a fool.
+MOXICA: You will regret this.
+COLUMBUS: You'll be held in detention, deprived of your privileges and possessions.  Until you are returned to Spain where you will be judged. Have you anything to say?
+MOXICA: Savagery is what monkeys understand.
+COLUMBUS: In one act of brutality, you have created chaos.  Tribes who were fighting each other are now joining forces against us!  All that because of your criminal savagery!
+MOXICA: You did not hear me, Don Colon.  Not my horse.
+COLUMBUS: Don Moxica -- we all have to work.
+MOXICA: My horse doesn't work.
+COLUMBUS: We can't raise the wheel without it.
+COLUMBUS: We came here to stay!  To build! Not to start a crusade.  In this forest, there is enough danger to sweep us away in days!  So we will be brave and swallow our grief.  And in the name of those who died, we will accomplish what we came for.
+MOXICA: We don't need to know.
+COLUMBUS: You want a war?  Fine.  We are a thousand.  They outnumber us by ten! Who will you kill?  Which tribe?
+COLUMBUS: If you want to keep your head on your shoulders, you'll do as I say.
+MOXICA: We lost cousins, friends.  We will wash this in blood.
+COLUMBUS: The Indians have no such word, Don Moxica.
+MOXICA: And you say this is an Indian vice? By God!  I don't see any kind of pleasure that would make this a sin.
+MENDEZ: We can't be.
+COLUMBUS: He's drawing an isthmus... He's saying we're on an isthmus.
+MENDEZ: What's he doing?
+MENDEZ: Twenty eight.
+COLUMBUS: What do you read?
+COLUMBUS: Come over here.
+MENDEZ: Well, I surely know what a quadrant is!  But I've never seen it used at night before.
+COLUMBUS: And what do you think Mendez?
+MENDEZ: Well... It's the men, Sir.  They wonder how you know our position. We've lost sight from land days ago...
+MENDEZ: God be with us admiral.
+COLUMBUS: Due west, Captain Mendez.  And may God be with us...
+COLUMBUS: You're right.  Let the men decide.
+PINZON: You tell that to them!
+COLUMBUS: Pinzon, Pinzon... All we can do now is go forward!  Think about that!
+PINZON: You bloody...
+COLUMBUS: You never did.  You did all the talking for both of us, remember?
+PINZON: Jesus Maria!  I should have never listened to you!
+COLUMBUS: And then what?  Half of the water has gone, the rest is nearly putrid! You know that!
+PINZON: You don't know anything!  Listen Colon, these are my ships, right? So I'm telling you we're turning back!
+COLUMBUS: The land is there.  I know it!
+PINZON: We're lost!
+COLUMBUS: You think I don't know that?
+PINZON: We're on the verge of a mutiny, Colon!
+COLUMBUS: We have to keep the hopes of these men alive!
+PINZON: You must be mad...!
+COLUMBUS: Six days ago, yes.
+PINZON: You lied!  You cheated!  We're way past 750 leagues!
+PINZON: Immediately.
+COLUMBUS: Where can I meet this man?
+ISABEL: Because he is not afraid of me.
+SANCHEZ: Then why?
+ISABEL: I know, I should not tolerate his impertinence.
+ISABEL: And who would you think of, for such a task?
+SANCHEZ: He must be replaced.
+ISABEL: Then, what do you suggest, Don Sanchez?
+ISABEL: Is this true, Brother Buyl?
+SANCHEZ: ... But there is worse.  He ordered the execution of five members of the nobility...
+ISABEL: We weren't expecting immediate profits, were we?  We must have faith.  We must give time for time.
+SANCHEZ: Every ship returns with a cargo of sick and dying.  But with no gold! The new world proves expensive, Your Majesty.
+ISABEL: Yes.  It would be a pity, wouldn't it?  Call him back!
+SANCHEZ: ... Into a monk...
+SANCHEZ: Never, Your Majesty.  Although...
+ISABEL: You were right, Don Sanchez... His demands could never be granted.
+SANCHEZ: Yes, Your Majesty.
+ISABEL: Is that the man I knew, Treasurer Sanchez?
+CUTLER: Officers, there's your killer, do your duty, arrest him!
+EMIL: ...so we kill someone famous and if we are caught, we are sent to mental hospital...
+CUTLER: I don't think it's abuse, I think it's torture.
+EMIL: I'm abused.  Don't you think?
+CUTLER: Can I see your back?
+EMIL: Out on my back when I was a small boy.
+CUTLER: Your father put cigarettes out on you?
+EMIL: That's what he did to me.  He put cigarettes out on me.
+EMIL: Yeah, he hated me from day when I was born.  Put it out.  Can you put the cigarette out?
+CUTLER: Your father blamed you for your mother's blindness?
+EMIL: Yeah, yeah...bad doctor gave her bad drugs which made her go blind.  And my father blamed me for her blindness...
+CUTLER: Back in the Czech Republic?
+EMIL: Yeah, she went blind giving birth to me. She went to fucking black market doctor to induce me.
+CUTLER: Your mother was blind?
+EMIL: My father always degraded me.  Killed my self-esteem.  And my mother was blind.
+CUTLER: Tell me about yourself.  What you did as a young boy... what your parents were like.
+EMIL: Give me another one, please.
+CUTLER: I need to know about your background.  I need to know about your upbringing.  Why you're here.
+EMIL: What else do you need?
+CUTLER: This is not about money, Emil.  I need your trust in me.
+EMIL: Thirty-percent.  No more.  Or I call another lawyer.  This is the biggest case of your life.  Don't try to negotiate.  Thirty percent.  Say yes or no.
+CUTLER: But it's...
+EMIL: No.  No way.
+CUTLER: I would say...half.  Half is fair.
+EMIL: What's your cut?  How much?
+CUTLER: Look, I haven't really focused on that kind of thing.
+EMIL: What about my movie rights?  Book rights?
+CUTLER: Don't worry about him.  Think about yourself.
+EMIL: No, he is here.  Shit...
+CUTLER: Disappeared.  They're looking everywhere.  Maybe he went back to Czechoslovakia.
+EMIL: What about Oleg?
+CUTLER: Well, you didn't appreciate the severity of it until recently.  No question about that.
+EMIL: I was all of these.
+CUTLER: ...delusions and paranoia.
+CUTLER: Oh, sure.
+EMIL: You bring the cigarettes?
+CUTLER: I brought you some letters.  It's really fan mail.  Women mostly.  One wants to buy you clothes, another sent a check. Another wants a check.
+CUTLER: I'm invoking rights - this man is represented by counsel.  I'm coming with him.
+EMIL: Yes.  Yes, come with me!
+CUTLER: I'm coming with you.
+EMIL: Where are we going?
+CUTLER: Don't say anything.
+EMIL: He has the camera!  He took the movie!
+CUTLER: Emil.  Take it easy.  Stay with me.  Sit down.  What do you need?  What are you looking for?
+EMIL: Oh no!  No!  Shit!
+EMIL: Here.  I have your money.
+CUTLER: I'm not your lawyer until I see the money.
+EMIL: Are you my attorney?  I'm Emil.  I'm insane.
+JORDY: Daphne, I...
+DAPHNE: I don't want to drag you down with me.
+JORDY: ...Do you really want me to forget about you?
+DAPHNE: Forget about me.  You have enough problems of your own.
+DAPHNE: Pouring it out!
+JORDY: What are you doing?
+DAPHNE: I'll get my clothes.
+JORDY: I'll make some for us.
+DAPHNE: In the kitchen.
+JORDY: Do you have coffee?
+DAPHNE: Right.

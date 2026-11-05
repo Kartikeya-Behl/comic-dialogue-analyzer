@@ -28,6 +28,9 @@ class SentenceAnalysis:
     addressed: Optional[str]
     mentions: List[str]
     classification_reason: str
+    clause_index: int = 1
+    total_clauses: int = 1
+    bubble_raw_text: Optional[str] = None
 
     def short_tokens_str(self) -> str:
         """
@@ -55,9 +58,17 @@ class ComicDialoguePipeline:
         known_names = self.popularity_engine.get_known_character_names()
         self.mention_finder = MentionFinder(known_names=known_names)
 
+    def set_aliases(self, aliases: dict) -> None:
+        """
+        Updates the character aliases dynamically and refreshes the mention finder lexicon.
+        """
+        self.popularity_engine.set_aliases(aliases)
+        known_names = self.popularity_engine.get_known_character_names()
+        self.mention_finder = MentionFinder(known_names=known_names)
+
     def analyze_sentence(self, line: str, line_num: int = 1) -> SentenceAnalysis:
         """
-        Runs complete analysis for a single dialogue sentence.
+        Runs complete analysis for a single dialogue sentence without bubble splitting.
         """
         # 1. Speaker Split & Preprocessing
         prep: PreprocessedSentence = self.cleaner.preprocess(line)
@@ -103,17 +114,104 @@ class ComicDialoguePipeline:
             tone_cues=class_res.tone,
             addressed=mention_res.addressed_name,
             mentions=mention_res.mentioned_names,
-            classification_reason=class_res.primary_reason
+            classification_reason=class_res.primary_reason,
+            clause_index=1,
+            total_clauses=1,
+            bubble_raw_text=line
         )
 
-    def analyze_batch(self, lines: List[str]) -> List[SentenceAnalysis]:
+    def analyze_bubble(
+        self,
+        line: str,
+        line_num: int = 1,
+        tally_speaker_once: bool = True
+    ) -> List[SentenceAnalysis]:
         """
-        Processes a list of dialogue lines.
+        Splits a multi-sentence speech bubble into individual clauses,
+        evaluates tone and vocatives separately for each clause,
+        and aggregates results back to the original speaker.
+        """
+        prep_clauses: List[PreprocessedSentence] = self.cleaner.preprocess_bubble(line)
+        if not prep_clauses:
+            return [self.analyze_sentence(line, line_num=line_num)]
+
+        analyses: List[SentenceAnalysis] = []
+        known_names = self.popularity_engine.get_known_character_names()
+        speaker = prep_clauses[0].speaker
+        bubble_has_high_tone = False
+
+        # First pass: classify and collect information for all clauses
+        clause_items = []
+        for prep in prep_clauses:
+            tokens, errors = self.lexer.tokenize(prep.cleaned_text, line_num=line_num)
+            for tok in tokens:
+                is_name = tok.value.upper() in known_names
+                self.symbol_table.insert(
+                    token_value=tok.value,
+                    token_type=tok.type,
+                    line_num=line_num,
+                    is_proper_name=is_name
+                )
+            class_res = self.classifier.classify(tokens)
+            mention_res = self.mention_finder.extract(tokens, speaker=speaker)
+            high_tone = class_res.tone.is_shouting or class_res.tone.is_pain_or_action
+            if high_tone:
+                bubble_has_high_tone = True
+
+            clause_items.append((prep, tokens, errors, class_res, mention_res, high_tone))
+
+        # Second pass: record activity
+        for idx, (prep, tokens, errors, class_res, mention_res, high_tone) in enumerate(clause_items):
+            # If tally_speaker_once is True, credit the speaker turn once on the first clause
+            spk_to_record = speaker if (not tally_speaker_once or idx == 0) else None
+            high_tone_to_record = bubble_has_high_tone if idx == 0 else high_tone
+
+            self.popularity_engine.record_activity(
+                speaker=spk_to_record,
+                addressed=mention_res.addressed_name,
+                mentions=mention_res.mentioned_names,
+                has_high_tone=high_tone_to_record if spk_to_record else False,
+                line_num=line_num
+            )
+
+            analyses.append(
+                SentenceAnalysis(
+                    line_num=line_num,
+                    speaker=speaker,
+                    raw_text=prep.raw_text,
+                    cleaned_text=prep.cleaned_text,
+                    tokens=tokens,
+                    lexical_errors=errors,
+                    sentence_type=class_res.sentence_type,
+                    tone_cues=class_res.tone,
+                    addressed=mention_res.addressed_name,
+                    mentions=mention_res.mentioned_names,
+                    classification_reason=class_res.primary_reason,
+                    clause_index=prep.clause_index,
+                    total_clauses=prep.total_clauses,
+                    bubble_raw_text=line
+                )
+            )
+
+        return analyses
+
+    def analyze_batch(
+        self,
+        lines: List[str],
+        split_bubbles: bool = True
+    ) -> List[SentenceAnalysis]:
+        """
+        Processes a list of dialogue lines. If split_bubbles is True,
+        multi-sentence bubbles are split into individual clauses.
         """
         results: List[SentenceAnalysis] = []
         for i, line in enumerate(lines, 1):
             if not line.strip() or line.strip().startswith("#"):
                 continue
-            res = self.analyze_sentence(line, line_num=i)
-            results.append(res)
+            if split_bubbles:
+                bubble_results = self.analyze_bubble(line, line_num=i)
+                results.extend(bubble_results)
+            else:
+                res = self.analyze_sentence(line, line_num=i)
+                results.append(res)
         return results

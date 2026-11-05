@@ -5,8 +5,10 @@ and conversational interaction networks.
 """
 
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Optional, Set, Tuple, Union
+import os
 from .config import DEFAULT_ALIASES, DEFAULT_WEIGHTS
+from .alias_loader import load_aliases_from_json, DEFAULT_ALIASES_PATH
 
 
 @dataclass
@@ -45,9 +47,30 @@ class CharacterPopularityEngine:
         aliases: Optional[Dict[str, str]] = None,
         weights: Optional[Dict[str, float]] = None
     ):
-        self.aliases: Dict[str, str] = {k.upper(): v.upper() for k, v in (aliases or DEFAULT_ALIASES).items()}
+        if aliases is not None:
+            self.aliases = {k.upper(): v.upper() for k, v in aliases.items()}
+        elif os.path.exists(DEFAULT_ALIASES_PATH):
+            try:
+                self.aliases = load_aliases_from_json(DEFAULT_ALIASES_PATH, fallback_aliases=DEFAULT_ALIASES)
+            except Exception:
+                self.aliases = {k.upper(): v.upper() for k, v in DEFAULT_ALIASES.items()}
+        else:
+            self.aliases = {k.upper(): v.upper() for k, v in DEFAULT_ALIASES.items()}
+
         self.weights: Dict[str, float] = weights or DEFAULT_WEIGHTS
         self.registry: Dict[str, CharacterStats] = {}
+
+    def set_aliases(self, aliases: Dict[str, str]) -> None:
+        """Replaces current aliases with a new normalized dictionary."""
+        self.aliases = {k.upper(): v.upper() for k, v in aliases.items()}
+
+    def load_aliases_from_file(self, filepath_or_source: Union[str, bytes, dict], merge: bool = False) -> None:
+        """Loads aliases from a JSON file path, JSON string, or dict."""
+        loaded = load_aliases_from_json(filepath_or_source)
+        if merge:
+            self.aliases.update(loaded)
+        else:
+            self.aliases = loaded
 
     def resolve_alias(self, name: str) -> str:
         """
